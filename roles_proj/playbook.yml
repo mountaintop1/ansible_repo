@@ -1,0 +1,7 @@
+- name: Delpoy a web application
+  hosts: db_and_web_server1,db_and_web_server2
+  roles:
+    - python
+    - mysql_db
+    - flask_web
+# Compare this snippet from playbook_proj\playbook2.yaml:
